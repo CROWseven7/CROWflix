@@ -58,3 +58,10 @@ font-size: 25px;
  .categoria h2 {
     color: lightgray;
  }
+
+ header img {
+    height: 160px;
+    display:inline-block;
+    overflow-x: auto;
+
+ }
