@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    margin: 10px;
+    font-family: "Afacad Flux", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+
+    padding: 10px;
+    border-bottom: solid 2px rgb(200, 0, 0);
+    font-size: 32px;
+
+}
+
+.chamada{
+    background: rgb(80, 80, 80);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+ margin-right: 8%;
+}
+
+p{
+
+font-size: 25px;
+
+}
+
+.categoria {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+
+.mais-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.mais-videos img {
+   height: 160px;
+   opacity: 0.60;
+}
+
+.mais-videos img:hover {
+
+    opacity: 1;
+    border: 10px solid gray;
+ }
+
+ .categoria h2 {
+    color: lightgray;
+ }
